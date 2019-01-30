@@ -6513,8 +6513,58 @@ footer .copyright a{
   background: url(../img/arrow-small.png) no-repeat 2%;
   padding-left: 40px;
 }
+.heighfull{
+  min-height: 250px !important;
+}
+.fullpadding{
+  padding: 100px 0;
+}
+.before-footer-wrapper{}
+.before-footer-wrapper .before-footer{
 
-
+}
+.before-footer-wrapper .before-footer .title{
+  font-size: 26px;
+  font-weight: 700;
+  color: #424242;
+  text-align: center;
+  padding: 100px 0;
+}
+.before-footer-wrapper .before-footer .block-wrapper.green .block .head{
+  background: url(../img/bg-green.jpg) repeat-x;
+  height: 215px;
+  position: relative;
+  text-align: center;
+} 
+.before-footer-wrapper .before-footer .block-wrapper.green .block .head .flag{
+  position: absolute;
+  top: -10px;
+  left: 10px;
+}
+.before-footer-wrapper .before-footer .block-wrapper.green .block .head .name-type{
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.before-footer-wrapper .before-footer .block-wrapper.green .block .head .ico{
+  background: #fff;
+  width: 100px;
+  border-radius: 50%;
+  padding: 10px;
+  display: inline-block;
+  margin-top: -20px;
+}
+.before-footer-wrapper .before-footer .block-wrapper.green .block .head img{
+  display: inline-block;
+}
+.before-footer-wrapper .before-footer .block-wrapper.green .block .head span{
+  display: block;
+}
 
 @media screen and (max-width: 568px) {
 
