@@ -6681,6 +6681,94 @@ footer .copyright a{
   background: #ff745c;
   color: #fff;
 }
+.column-blue-wrapper{
+  background: url(../img/bg-recovered.jpg) no-repeat;
+  background-size: cover; 
+  padding: 50px 0;
+}
+.column-blue-wrapper .title{
+  font-size: 48px;
+  font-weight: 300;
+  line-height: normal;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.column-blue-wrapper .list-column ul {
+  padding: 0;
+  margin: 0;
+}
+.column-blue-wrapper .list-column ul li{
+  list-style: none;
+  padding-left: 80px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.column-blue-wrapper .list-column ul li strong{
+  font-weight: 600;
+  font-size: 16px;
+}
+.column-blue-wrapper .list-column ul li p{
+  line-height: normal;
+}
+.column-blue-wrapper .list-column ul li:first-child{
+  background: url(../img/ico-pembelian-1.png) no-repeat left;
+}
+.column-blue-wrapper .list-column ul li:nth-child(2){
+  background: url(../img/ico-pembelian-2.png) no-repeat left;
+}
+.column-blue-wrapper .list-column ul li:last-child{
+  background: url(../img/ico-pembelian-3.png) no-repeat left;
+}
+.column-block-wrapper .column-block{
+  background: #fff;
+  text-align: center;
+  font-weight: 600;
+  color: #424242;
+  padding: 35px;
+  border-radius: 8px;
+}
+.column-block-wrapper .column-block .txt{
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.column-block-wrapper .column-block .large{
+  font-size: 150px;
+  padding: 20px 0;
+  min-height: 120px;
+  line-height: 100px;
+}
+.column-block-wrapper .column-block .disc{
+  font-size: 26px;
+  padding: 20px 0;
+  font-weight: 700;
+}
+.column-block-wrapper .column-block .price{
+  font-size: 32px;
+  font-weight: 300;
+}
+.column-block-wrapper .column-block .save{
+  color: #e23535;
+  font-size: 15px;
+  padding: 10px 0;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.column-block-wrapper .column-block .btn-buy{
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.column-block-wrapper .column-block .btn-buy button {
+  outline: none;
+  background: #ffac00;
+  color: #fff;
+  text-transform: uppercase;  
+  border-radius: 25px;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 568px) {
 
   .content-columns-wrapper .blue-box .img-wrapper{
