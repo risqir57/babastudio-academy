@@ -6442,6 +6442,63 @@ footer .copyright a{
   font-size: 26px;
   margin-bottom: 10px;
 }
+.column-grey-wrapper{
+  background: #F5F5F5;
+  border: 1px solid #E6E7E9;
+  padding: 20px;
+}
+.column-grey-wrapper .left{
+  text-align: center;
+  padding: 20px;
+}
+.column-grey-wrapper .avatar{
+  text-align: center;
+}
+.column-grey-wrapper .avatar img{
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.column-grey-wrapper .right{
+  padding: 20px;
+}
+.column-grey-wrapper .right h1{
+  font-weight: 700;
+  color: #215ca0;
+  font-size: 26px;
+}
+.column-grey-wrapper .right h3{
+  color: #424242;
+  font-size: 18px;
+  font-weight: 600;
+}
+.column-grey-wrapper ul{
+  width: 100% !important;
+  text-align: left !important;
+  margin: 20px auto !important;
+}
+.column-grey-wrapper ul li{
+  display: block !important;
+  width: 100% !important;
+  padding-left: 5%;
+  background: url(../img/arrow-list.png) no-repeat left;
+  margin-bottom: 10px;
+}
+.column-grey-wrapper .right button{
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #215ca0;
+  border: none;
+  border-radius: 50px;
+  width: 35%;
+  height: 45px;
+}
+.column-grey-wrapper .right button:hover{
+  background-color: #032E61;
+}
 .content-two-column-wrapper{
   color: #424242;
 }
@@ -6796,6 +6853,9 @@ footer .copyright a{
   }
   .top-cols-wrapper .top .title{
     line-height: normal;
+  }
+  .column-grey-wrapper .right button{
+    width: 100%;
   }
 }
 
