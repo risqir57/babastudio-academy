@@ -6450,6 +6450,26 @@ footer .copyright a{
 .column-grey-wrapper .left{
   text-align: center;
   padding: 20px;
+  position: relative;
+}
+.column-grey-wrapper .left .level{
+  background: #215ca0;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  line-height: normal;
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 10px;
+  font-weight: 600;
+}
+.column-grey-wrapper .left .level span{
+  font-weight: normal;
 }
 .column-grey-wrapper .avatar{
   text-align: center;
