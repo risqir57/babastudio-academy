@@ -6848,7 +6848,154 @@ footer .copyright a{
   padding: 10px 40px;
   font-weight: bold;
 }
-
+.modal-test .modal-header{
+  padding: 0;
+}
+.modal-test .modal-header .mobile{
+  background: #215ca0;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+.modal-test .modal-header .mobile h1{
+  font-weight: 700;
+  font-size: 26px;
+}
+.modal-test .modal-header .mobile h3{
+  font-weight: 600;
+  font-size: 18px;
+}
+.modal-test .modal-header .mobile .avatar{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.modal-test .modal-header .mobile .avatar img{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #fff;
+  padding: 5px;
+}
+.modal-test .modal-header .desktop{
+  background: #215ca0;
+  width: 100%;
+  color: #fff;
+  padding: 20px;
+}
+.modal-test .modal-header .desktop .left .txt{
+  margin-bottom: 10px;
+}
+.modal-test .modal-header .desktop .left .txt span{
+  font-weight: 700;
+  font-size: 26px;
+  line-height: normal;
+  margin-left: 10px;
+}
+.modal-test .modal-header .desktop .left .txt:nth-child(1) span{
+  border-bottom: 3px solid #33ff33;
+}
+.modal-test .modal-header .desktop .left .txt:nth-child(2) span{
+  border-bottom: 3px solid #ff3333;
+}
+.modal-test .modal-header .desktop .right .timer-wrapper{
+  position: relative;
+  height: 100%;
+}
+.modal-test .modal-header .desktop .right .timer-wrapper .timer{
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  font-size: 16px;
+}
+.modal-test .modal-header .desktop .right .timer-wrapper .timer span{
+  font-size: 26px;
+  display: block;
+}
+.modal-test .modal-footer-col{
+  background: #717171;
+  color: #fff;
+  padding: 20px;
+}
+.modal-test .modal-footer-col .left .txt{
+  background: url(../img/ico-i.png) no-repeat left top;
+  padding-left: 40px;
+}
+.modal-test .modal-footer-col .right button{
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 35%;
+  height: 45px;
+  color: #fff;
+}
+.modal-test .modal-footer-col .right .btn-prev{
+  background: #424242;
+}
+.modal-test .modal-footer-col .right .btn-next{
+  background: #215ca0;
+}
+.list-block-question-wrapper .txt{
+  text-align: right;
+  color: #424242;
+}
+.list-block-question-wrapper ul{
+  padding: 0;
+  margin: 0;
+}
+.list-block-question-wrapper ul li{
+  background: #d2d2d2;
+  display: inline-block;
+  width: 4.6789%;
+  height: 10px;
+}
+.question-column{
+  color: #215ca0;
+  font-size: 24px;
+  font-weight: 600;
+}
+.answer{
+  color: #424242;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px 0;
+}
+.answer .float-left{
+  margin-right: 10%;
+}
+.modal-test .arrow-wrapper{
+  background: #f6f6f6;
+  padding: 20px;
+  text-align: center;
+}
+.modal-test .arrow-wrapper button{
+  display: inline-block;
+  background: none;
+}
+.modal-test .arrow-wrapper .next{
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.modal-test .arrow-wrapper .count{
+  display: inline-block;
+  font-size: 24px;
+  color: #999;
+  top: 5px;
+  position: relative;
+}
+.answer .float-left .form-check{
+  margin-bottom: 10px;
+}
+.list-block-question-wrapper ul li.done{
+  background: #215ca0;
+}
+.list-block-question-wrapper ul li.active{
+  background: #00a1e0;
+}
 @media screen and (max-width: 568px) {
 
   .content-columns-wrapper .blue-box .img-wrapper{
@@ -6880,6 +7027,17 @@ footer .copyright a{
   .column-grey-wrapper .right button{
     width: 100%;
   }
+  .modal-test .modal-footer-col .right button{
+    width: 48%;
+  }
+  .modal-test .modal-footer-col .left .txt{
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+  .list-block-question-wrapper ul li{
+    width: 3.8%;
+    height: 2px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 900px){  
@@ -6900,5 +7058,26 @@ footer .copyright a{
     height: 30px;
     padding: 0;
   }
+  .list-block-question-wrapper ul li{
+    width: 4.5%;
+  }
 
+}
+
+@media screen and (min-width: 1024px) {
+  .modal .modal-dialog {
+    max-width: 1150px;
+  }
+  .modal-test .modal-body{
+    padding: 5%;
+  }
+  .modal-test .modal-header .desktop{
+    padding: 2% 5%;
+  }
+  .list-block-question-wrapper ul li{
+    width: 4.64%;
+  }
+  .modal-footer-col{
+     padding: 5% !Important;
+  }
 }

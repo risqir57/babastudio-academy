@@ -9,6 +9,11 @@ $(document).ready(function(){
     }
  });
 
+ // modal test
+ $(window).on('load',function(){
+      $('.modal-test').modal('show');
+  }); 
+
  // multiple select
   var spacesToAdd = 8;
   var biggestLength = 0;
