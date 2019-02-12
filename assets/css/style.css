@@ -6851,6 +6851,21 @@ footer .copyright a{
 .modal-test .modal-header{
   padding: 0;
 }
+.bg-survey{
+  padding: 8% 5% !important;
+  background: url(../img/bg-blue.jpg) no-repeat !important;
+  background-size: cover !important;
+  text-align: center;
+}
+.bg-survey .tagline{
+  font-weight: 300;
+  font-size: 32px;
+  line-height: normal;
+}
+.bg-survey .sort{
+  font-weight: 600;
+  font-size: 18px;
+}
 .modal-test .modal-header .mobile{
   background: #215ca0;
   padding: 20px;
@@ -6923,6 +6938,9 @@ footer .copyright a{
   background: url(../img/ico-i.png) no-repeat left top;
   padding-left: 40px;
 }
+.modal-test .modal-footer-col .left .txt strong{
+  font-size: 24px;
+}
 .modal-test .modal-footer-col .right button{
   border-radius: 50px;
   font-size: 16px;
@@ -6936,6 +6954,18 @@ footer .copyright a{
 }
 .modal-test .modal-footer-col .right .btn-next{
   background: #215ca0;
+}
+.list-block-question-wrapper .txt.center{
+  text-align: center;
+  font-size: 18px;
+}
+.list-block-question-wrapper .progress{
+  margin: 10px 0 20px;
+  border-radius: 25px;
+  height: 20px;
+}
+.list-block-question-wrapper .progress .progress-bar{
+  background-color: #00458E;
 }
 .list-block-question-wrapper .txt{
   text-align: right;
@@ -7079,5 +7109,8 @@ footer .copyright a{
   }
   .modal-footer-col{
      padding: 5% !Important;
+  }
+  .modal-body.survey{
+    padding: 1% 5% !important;
   }
 }
