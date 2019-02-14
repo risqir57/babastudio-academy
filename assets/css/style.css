@@ -6851,6 +6851,40 @@ footer .copyright a{
 .modal-test .modal-header{
   padding: 0;
 }
+.bg-post-test{
+  padding: 12.5% 5% !important;
+  background: url(../img/bg-protest.jpg) no-repeat !important;
+  background-size: cover !important;
+  text-align: center;
+}
+.bg-post-test .tagline{
+  font-size: 64px;
+  font-weight: 300;
+}
+.postest .right .hello{
+  font-size: 26px;
+  font-weight: 700;
+  color: #215ca0;
+}
+.postest .right .tagline{
+  font-size: 18px;
+  font-weight: 600;
+  color: #424242;
+  line-height: normal;
+}
+.postest .right .btn-next{
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 35%;
+  height: 45px;
+  color: #fff;
+  background: #215ca0;
+}
+.postest .right p{
+  color: #717171;
+  font-size: 15px;
+}
 .bg-survey{
   padding: 8% 5% !important;
   background: url(../img/bg-blue.jpg) no-repeat !important;
@@ -7067,6 +7101,17 @@ footer .copyright a{
   .list-block-question-wrapper ul li{
     width: 3.8%;
     height: 2px;
+  }
+  .bg-post-test .tagline{
+    font-size: 34px;
+  }
+  .postest .img img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .postest .right .btn-next{
+    width: 100%;
+    margin: 20px 0;
   }
 }
 
