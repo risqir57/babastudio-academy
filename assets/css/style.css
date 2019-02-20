@@ -4684,13 +4684,15 @@ header nav.navbar .navbar-nav>li.notification>.dropdown-menu>li.submit__product 
 .sopping-cart.inner-content ul li i.fa{
   color: #ffffff;
   display: inline-block;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
-  line-height: 50px;
-  width: 50px;
-  height: 50px;
+  line-height: 60px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   background-color: #b5babf;
+  position: relative;
+  z-index: 1;
 }
 .sopping-cart.inner-content ul li.done i.fa{
   background-color: #215ca0;
@@ -6429,6 +6431,162 @@ footer .copyright a{
 
 
 /*opan*/
+.content-center .block{
+  border-left: 1px solid #c1cadb;
+  border-top: 1px solid #c1cadb;
+  border-right: 1px solid #c1cadb;
+  padding: 5%;
+  color: #30323e;
+}
+.content-center .block .txt{
+  color: #30323e;
+  font-size: 16px;
+  font-weight: 600;
+}
+.content-center .block .payment-guide{
+  text-align: left;
+}
+.panel-group .panel-heading .panel-title{
+  font-size: 14px;
+  margin-bottom: 0;
+  border: 1px solid #c1cadb;
+}
+.panel-group .panel-heading .panel-title a{
+  display: block;
+  color: #6e6e6e;
+  position: relative;
+  padding: 15px;
+  text-decoration: none;
+}
+.accordion-toggle:after{
+  position: absolute;
+  right: 15px;
+}
+.status-pembayaran{
+  background: #f6f6f6;
+  padding: 20px;
+  border-top: none; 
+  border-left: 1px solid #c1cadb;
+  border-right: 1px solid #c1cadb;
+  border-bottom: 10px solid #d2d2d2;
+}
+.status-pembayaran .title{
+  background: url(../img/ico-file.png) no-repeat left center;
+  font-weight: 700;
+  font-size: 18px;
+  color: #30323e;
+  padding-left: 30px;
+}
+.status-pembayaran .left{
+  color: #ff6600;
+  font-size: 16px;
+  padding: 20px;
+}
+.status-pembayaran .left .img{
+  margin-bottom: 10px;
+}
+.status-pembayaran .right{
+  color: #697687;
+}
+.status-pembayaran .right button{
+  background: #215ca0;
+  border-radius: 25px;
+  border: none;
+  padding: 8px 25px;
+  margin: 10px 0;
+}
+.payment-guide .title{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 40px;
+  padding: 20px 0;
+  border-top: 1px solid #c1cadb;
+}
+.payment-guide .detail{
+  margin: 20px;
+}
+.payment-guide .detail a{
+  text-decoration: underline;
+  color: #00a1e0;
+}
+.payment-guide .panel-body{
+  border: 1px solid #c1cadb;
+  padding: 20px;
+}
+.content-center .block .timer-wrapper{
+  background: #eceff4;
+  border: 1px solid #43bae8;
+  padding: 20px;
+  margin: 20px;
+}
+.content-center .block .timer-wrapper p{
+  color: #6e6e6e;
+  font-size: 18px;
+}
+.timer .time{
+  font-size: 32px;
+  font-weight: 300;
+  color: #215ca0;
+}
+.timer .time .name{
+  font-size: 14px;
+  color: #717171;
+}
+.timer-wrapper .timer .tiket{
+  font-style: italic;
+  color: #ff3333;
+}
+.content-center .block .notice{
+  background: #feeedb;
+  padding: 10px;
+  margin: 20px;
+  color: #30323e;
+  border: 1px solid #fdc689;
+}
+.refrence .no-refrence{
+  color: #215ca0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.content-center .block .tobank{
+  margin-top: 40px;
+  border-top: 1px solid #c1cadb;
+  padding-top: 20px; 
+  text-align: left;
+}
+.content-center .block .tobank .img{
+  display: inline-block;
+}
+.content-center .block .tobank .no-rek{
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #215ca0;
+}
+.content-center .block .tobank .copy-txt{
+  color: #00a1e0;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+.content-center .block .total-bank{
+  margin-top: 40px;
+  border-top: 1px solid #c1cadb;
+  padding-top: 20px; 
+  text-align: left;
+}
+.content-center .block .total-bank .total{
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  color: #215ca0;
+}
+.content-center .block .total-bank .copy-txt{
+  color: #00a1e0;
+  text-decoration: underline;
+  margin-top: 20px;
+}
 .top-cols-wrapper .top{
   text-align: center;
   color: #424242;
@@ -7060,6 +7218,10 @@ footer .copyright a{
 .list-block-question-wrapper ul li.active{
   background: #00a1e0;
 }
+.center{
+  text-align: center;
+}
+
 @media screen and (max-width: 568px) {
 
   .content-columns-wrapper .blue-box .img-wrapper{
