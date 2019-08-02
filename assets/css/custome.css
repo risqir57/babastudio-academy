@@ -1,0 +1,423 @@
+.ratings .media{
+  margin-bottom: 20px;
+}
+.ratings .media h3 {
+  font-size: 18px;
+  padding-top: 3px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+}
+.ratings .media .media-body p {
+  font-size: 15px;
+  margin-bottom: 0px;
+  padding-right: 70px;
+}
+.ratings .media .media-body .stars {
+  margin-top: 5px;
+}
+.ratings .media .media-body .stars ul {
+  margin: 0px;
+  width: 100%;
+  padding-left: 0px;
+  overflow: hidden;
+}
+.ratings .media .media-body .stars ul:before {
+  background-color: transparent;
+}
+.ratings .media .media-body .stars ul li{
+  width: auto;
+  float: left;
+  list-style: none;
+}
+.ratings .media .media-body .stars ul li i{
+  width: 30px;
+  color: #f3ca00;
+  font-size: 18px;
+  background: transparent;
+}
+.postest .btnSubmit {
+  width: 100%;
+  text-align: right;
+}
+.postest .btnSubmit button{
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #215ca0;
+  padding: 5px 30px;
+  border: 1px solid #215ca0;
+  border-radius: 20px;
+}
+.colbtn {
+  text-align: right;
+}
+.colbtn button{
+  font-size: 14px;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 5px 30px;
+  background-color: #215ca0;
+  border: 1px solid #215ca0;
+}
+.headingForms h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.signupAsn .forms {
+  width: 80%;
+  float: left;
+  padding: 25px 30px;
+  background: #F5F5F5;
+}
+.signupAsn .forms input {
+  font-size: 15px;
+}
+.signupAsn .forms input:hover {
+  border: 1px solid #00458E;
+  box-shadow: 0px 0px 5px rgba(0,161,224,0.3), 0px 0px 5px rgba(0,161,224,0.3);
+  background: #ffffff;
+}
+.signupAsn .forms textarea:hover {
+  border: 1px solid #00458E;
+  box-shadow: 0px 0px 5px rgba(0,161,224,0.3), 0px 0px 5px rgba(0,161,224,0.3);
+  background: #ffffff;
+}
+.signupAsn .forms select:hover {
+  border: 1px solid #00458E;
+  box-shadow: 0px 0px 5px rgba(0,161,224,0.3), 0px 0px 5px rgba(0,161,224,0.3);
+  background: #ffffff;
+}
+.signupAsn .heading h2 {
+  padding-left: 11rem;
+}
+.signupAsn .textLeft {
+  width: 32%;
+  float: left;
+  color: #ffffff;
+  padding-top: 8rem;
+  background: #00A1E0;
+  padding-left: 50px;
+  padding-right: 4rem;
+}
+.signupAsn .formSignup form .choose {
+  padding-left: 20px;
+}
+.signupAsn .formSignup form .choose label{
+  margin-right: 35px;
+}
+.coltextLeft {
+  padding-top: 20px;
+}
+.coltextLeft h2{
+  font-size: 28px;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px #7b7b7b;
+}
+.coltextLeft p{
+  margin-top: 20px;
+  margin-bottom: 4rem;
+  text-shadow: 2px 2px 2px #7b7b7b;
+}
+.coltextLeft .syaratText p {
+  margin-bottom: 20px;
+}
+.coltextLeft .syaratText ul {
+  padding-left: 0px;
+}
+.coltextLeft .syaratText ul li{
+  list-style: none;
+  margin-bottom: 3px;
+  text-shadow: 2px 2px 2px #7b7b7b;
+}
+.check form .form-group {
+  padding: 45px 45px;
+  background-color: #7DC1ED;
+  border-radius: 10px;
+}
+.check form .form-group h3{
+  font-size: 34px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.heading-check {
+  overflow: hidden;
+}
+.heading-check .bg-heading {
+  width: 140px;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+  border-radius: 25px;
+  color: #ffffff;
+  padding: 10px 10px;
+  background-color: #215ca0;
+  border: 1px solid #215ca0;
+}
+.heading-check .bg-heading h2{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.bgFormCheck {
+  z-index: 990;
+  position: relative;
+}
+.bgFormCheck .colbtn button {
+  width: 100px;
+  height: 38px;
+  background-color: #215ca0;
+  border: 1px solid #215ca0;
+}
+.bgCheck {
+  position: relative;
+  width: 100%;
+  min-height: 90vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.bgCheck::after {
+  content: "";
+  position: absolute;
+  background-color: #ffffff;
+  padding-bottom: 141.42136%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  -webkit-transform: rotate(65.5deg);
+  transform: rotate(-42.5deg);
+  -webkit-transform-origin: left bottom;
+  transform-origin: left top;
+}
+.datepicker td, .datepicker th {
+  font-size: 12px;
+}
+
+.colSertifikat p {
+  font-weight: 600;
+  text-align: center;
+}
+.colSertifikat .sertifikatImg {
+  box-shadow: 1px 1px 9px -1px #dddddd;
+}
+.colSertifikat .sertifikatImg img {
+  width: 100%;
+}
+
+.check-sertifikat {
+  background-repeat: no-repeat;
+  background-image: url(../img/bgAbstrac.jpg);
+}
+.login {
+  background-repeat: no-repeat;
+  background-image: url(../img/bgAbstracRotate.jpg);
+  background-size: 63%;
+  background-position: right;
+}
+.sertifikat .heading h2 {
+  text-align: center;
+}
+.att {
+  margin-top: 45px;
+  overflow: hidden;
+  background: #034e97;
+}
+.att p{
+  color: #ffffff;
+  float: left;
+  width: 70%;
+  margin-bottom: 0px;
+}
+.att .colBtnCetak .btnCetak {
+  background: #43a234;
+  padding: 5px 0px;
+  width: 150px;
+  border-radius: 25px;
+  border: 1px solid #43a234;
+}
+.att .colBtnCetak .btnCetak a{
+  color: #ffffff;
+  text-align: center;
+  display: block;
+}
+.att .colBtnCetak .btnCetak a:hover{
+  text-decoration: none;
+}
+.btnSubmit {
+  float: right;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  border-color: #5f5f5f;
+  width: 125px;
+  padding: 7px 0px;
+  border-radius: 20px;
+  background-color: #215ca0;
+  border: 1px solid #215ca0;
+}
+.btnSubmit:hover {
+  background-color: #215ca0;
+  border: 1px solid #215ca0;
+}
+.loginbg {
+  padding-top: 9rem !important;
+}
+.descLogin {
+  color: #ffffff;
+  text-align: right;
+}
+.descLogin h2{
+  font-weight: 600;
+  font-size: 43px;
+  text-shadow: 2px 2px 2px #676767;
+}
+.descLogin p{
+  text-shadow: 2px 2px 2px #676767;
+}
+.bgLogin {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.bgLogin::after {
+  content: "";
+  position: absolute;
+  background-color: #ffffff;
+  padding-bottom: 133.42136%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transform: rotate(-29.5deg);
+  transform: rotate(-29.5deg);
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+}
+.formLogin {
+  overflow: hidden;
+  padding-right: 70px;
+}
+.formLogin .form-check span a {
+  font-size: 13px;
+  font-weight: 600;
+}
+.formLogin .form-check span a:hover {
+  text-decoration: none;
+}
+footer.loginFooter {
+  padding: 0px;
+}
+footer.loginFooter .copyright {
+  padding-top: 0px;
+}
+footer.loginFooter p {
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.colfeedback {
+  width: 100%;
+  background: transparent;
+  border: 0px;
+}
+.colfeedback:hover {
+  width: 100%;
+  background: transparent;
+  border: 0px;
+}
+
+
+
+
+
+.ratings {
+  margin-top: 5px;
+  border: none;
+  float: left;
+}
+
+.ratings > label {
+  color: #90A0A3;
+  float: right;
+}
+
+.ratings > label:before {
+  margin: 5px;
+  font-size: 2em;
+  font-family: FontAwesome;
+  content: "\f005";
+  display: inline-block;
+}
+
+.ratings > input {
+  display: none;
+}
+
+.ratings > input:checked ~ label,
+.ratings:not(:checked) > label:hover,
+.ratings:not(:checked) > label:hover ~ label {
+  color: #f3ca00;
+}
+
+.ratings > input:checked + label:hover,
+.ratings > input:checked ~ label:hover,
+.ratings > label:hover ~ input:checked ~ label,
+.ratings > input:checked ~ label:hover ~ label {
+  color: #FECE31;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .bgLogin::after {
+    position: inherit;
+  }
+  .loginbg {
+    padding-top: 2rem !important;
+  }
+  .formLogin {
+    margin-top: 25px;
+    padding-right: 0px;
+  }
+  .check-sertifikat .bgCheck {
+    background: #317bac;
+  }
+  .bgCheck::after {
+    position: inherit;
+  }
+  .heading-check .bg-heading h2 {
+    color: #ffffff;
+  }
+  .bgFormCheck .colbtn button {
+    margin-top: 15px;
+  }
+  .signupAsn .heading h2 {
+    padding-left: 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .signupAsn .forms {
+    width: 100%;
+  }
+  .signupAsn .textLeft {
+    display: none;
+  }
+  .ratings .media {
+    padding: 5px 15px;
+  }
+  .ratings .media .media-body p {
+    padding-right: 0px;
+  }
+}
